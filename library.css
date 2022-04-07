@@ -1,0 +1,80 @@
+.bodyRed{
+    background-color: red;
+}
+.accordion-button.bodyRed:not(.collapsed){
+    background-color: red;
+    color:black;
+}
+
+.bodyOrange{
+    background-color: orange;
+}
+.accordion-button.bodyOrange:not(.collapsed){
+    background-color: orange;
+    color:black;
+}
+
+.bodyYellow{
+    background-color: yellow;
+}
+.accordion-button.bodyYellow:not(.collapsed){
+    background-color: Yellow;
+    color:black;
+}
+
+.bodyGreen{
+    background-color: green;
+}
+.accordion-button.bodyGreen:not(.collapsed){
+    background-color: green;
+    color:black;
+}
+
+.bodyBlue{
+    background-color: blue;
+}
+.accordion-button.bodyBlue:not(.collapsed){
+    background-color: blue;
+    color:black;
+}
+
+.bodyPurple{
+    background-color: purple;
+}
+.accordion-button.bodyPurple:not(.collapsed){
+    background-color: purple;
+    color:black;
+}
+
+.bodyViolet{
+    background-color: violet;
+}
+.accordion-button.bodyViolet:not(.collapsed){
+    background-color: violet;
+    color:black;
+}
+
+.accordion-button.bodyBlue:not(.collapsed){
+    background-color: blue;
+    color:black;
+}
+
+.bodyEnglish{
+    background-color: aqua;
+}
+
+img.d-block{
+    width: 25%;
+        }
+
+    a{
+        color:black;
+        font-weight: 800;
+    }
+
+    h5{
+        text-decoration: none;
+    }
+
+
+ 
