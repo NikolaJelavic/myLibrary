@@ -1,9 +1,22 @@
 .bodyRed{
     background-color: red;
 }
+ header{
+     font-size: 35px;
+     
+     font-family: 'Rubik Moonrocks', cursive;
+ }
+
 .accordion-button.bodyRed:not(.collapsed){
     background-color: red;
     color:black;
+    
+}
+h1 {
+    font-family: 'Mansalva', cursive;
+}
+h5{
+    font-family: 'Mansalva', cursive;
 }
 
 .bodyOrange{
@@ -76,5 +89,7 @@ img.d-block{
         text-decoration: none;
     }
 
-
+h1.text-center{
+    font-family: 'Rubik Microbe', cursive;
+}
  
