@@ -1,95 +1,163 @@
-.bodyRed{
+.bodyRed {
     background-color: red;
 }
- header{
-     font-size: 35px;
-     
-     font-family: 'Rubik Moonrocks', cursive;
- }
 
-.accordion-button.bodyRed:not(.collapsed){
+
+
+.accordion-button.bodyRed:not(.collapsed) {
     background-color: red;
-    color:black;
-    
+    color: black;
+
 }
+
 h1 {
-    font-family: 'Mansalva', cursive;
-}
-h5{
-    font-family: 'Mansalva', cursive;
+    font-family: 'Special Elite', cursive;
+    padding: 20px 0px 0px 10px;
 }
 
-.bodyOrange{
-    background-color: orange;
-}
-.accordion-button.bodyOrange:not(.collapsed){
-    background-color: orange;
-    color:black;
+h1.text-center {
+    font-family: 'Special Elite', cursive;
+
 }
 
-.bodyYellow{
+h2.text-center {
+    font-family: 'Special Elite', cursive;
+    padding-top: 20px;
+}
+
+
+h5 {
+    font-family: 'Chewy', cursive;
+}
+
+.bodyOrange {
+    background-color: orange;
+}
+
+.accordion-button.bodyOrange:not(.collapsed) {
+    background-color: orange;
+    color: black;
+}
+
+.bodyYellow {
     background-color: yellow;
 }
-.accordion-button.bodyYellow:not(.collapsed){
+
+.accordion-button.bodyYellow:not(.collapsed) {
     background-color: Yellow;
-    color:black;
+    color: black;
 }
 
-.bodyGreen{
+.bodyGreen {
     background-color: green;
 }
-.accordion-button.bodyGreen:not(.collapsed){
+
+.accordion-button.bodyGreen:not(.collapsed) {
     background-color: green;
-    color:black;
+    color: black;
 }
 
-.bodyBlue{
+.bodyBlue {
     background-color: blue;
-}
-.accordion-button.bodyBlue:not(.collapsed){
-    background-color: blue;
-    color:black;
 }
 
-.bodyPurple{
+.accordion-button.bodyBlue:not(.collapsed) {
+    background-color: blue;
+    color: black;
+}
+
+.bodyPurple {
     background-color: purple;
 }
-.accordion-button.bodyPurple:not(.collapsed){
+
+.accordion-button.bodyPurple:not(.collapsed) {
     background-color: purple;
-    color:black;
+    color: black;
 }
 
-.bodyViolet{
+.bodyViolet {
     background-color: violet;
-}
-.accordion-button.bodyViolet:not(.collapsed){
-    background-color: violet;
-    color:black;
 }
 
-.accordion-button.bodyBlue:not(.collapsed){
+.accordion-button.bodyViolet:not(.collapsed) {
+    background-color: violet;
+    color: black;
+}
+
+.accordion-button.bodyBlue:not(.collapsed) {
     background-color: blue;
-    color:black;
+    color: black;
 }
 
-.bodyEnglish{
-    background-color: aqua;
+.bodyEnglish {
+    background-color: beige;
 }
 
-img.d-block{
+img.d-block {
     width: 25%;
-        }
-
-    a{
-        color:black;
-        font-weight: 800;
-    }
-
-    h5{
-        text-decoration: none;
-    }
-
-h1.text-center{
-    font-family: 'Rubik Microbe', cursive;
 }
- 
+
+a {
+    color: black;
+    font-weight: 800;
+}
+
+h5 {
+    text-decoration: none;
+}
+
+
+
+
+.flagEnglish {
+    transition: transform 0.3s;
+}
+
+.flagEnglish:hover {
+    transform: rotate(360deg);
+}
+
+.flagYu {
+    transition: transform 0.7s;
+    width: 180px;
+}
+
+.flagYu:hover {
+    transform: scaleX(-1);
+    background-image: url(image2.jpg);
+}
+
+
+.flagDeutsch {
+    transition: transform 0.7s;
+}
+
+.flagDeutsch:hover {
+    transform: translate(300px, 0px);
+}
+
+.dropdown-menu-dark {
+    background-color: #ffc107;
+}
+
+
+
+.dropdown-menu-dark .dropdown-item {
+    color: black;
+    font-family: 'Chewy', cursive;
+}
+
+.navbar-light {
+    font-family: 'Chewy', cursive;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: 25%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+width: 25%;
+height: 25%;
+}
+.btn-info{
+border-radius: 20px;
+}
