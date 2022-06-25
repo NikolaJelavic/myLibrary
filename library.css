@@ -109,13 +109,13 @@ h5 {
 
 
 
-.flagEnglish {
+/* .flagEnglish {
     transition: transform 0.3s;
 }
 
 .flagEnglish:hover {
     transform: rotate(360deg);
-}
+} */
 
 .flagYu {
     transition: transform 0.7s;
@@ -128,13 +128,13 @@ h5 {
 }
 
 
-.flagDeutsch {
+/* .flagDeutsch {
     transition: transform 0.7s;
 }
 
 .flagDeutsch:hover {
     transform: translate(300px, 0px);
-}
+} */
 
 .dropdown-menu-dark {
     background-color: #ffc107;
