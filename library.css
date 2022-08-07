@@ -151,13 +151,78 @@ h5 {
     font-family: 'Chewy', cursive;
 }
 
-.carousel-control-next, .carousel-control-prev{
+.carousel-control-next,
+.carousel-control-prev {
     width: 25%;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon {
-width: 25%;
-height: 25%;
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 25%;
+    height: 25%;
 }
-.btn-info{
-border-radius: 20px;
+
+.btn-info {
+    border-radius: 20px;
 }
+
+
+@media screen and (max-width:481px) {
+    h1{
+        margin:5%
+    }
+    img.d-block {
+        border-radius: 20px;
+        width: 70%;
+    }
+    #carouselExampleCaptions.carousel.carousel-dark.slide.pointer-event{
+        margin-top: 20%;
+        /* background-color: black; */
+        
+    }
+    .carousel-control-prev{
+        width:15%;}
+    .carousel-control-next{
+        width:15%;
+    }
+    .carousel-control-next-icon{
+        width:50%;
+        height: 50%;
+    }
+    .carousel-control-prev-icon{
+        width:50%;
+        height: 50%;
+    }
+}
+
+@media screen and (min-width:482px) and (max-width:900px) {
+
+    h1{
+        margin:5%
+    }
+
+    img.d-block {
+        border-radius: 20px;
+        width: 70%;
+    }
+    #carouselExampleCaptions.carousel.carousel-dark.slide.pointer-event{
+        margin-top: 5%;
+        /* background-color: black; */
+        
+    }
+    .carousel-control-prev{
+        width:15%;}
+    .carousel-control-next{
+        width:15%;
+    }
+    .carousel-control-next-icon{
+        width:50%;
+        height: 50%;
+    }
+    .carousel-control-prev-icon{
+        width:50%;
+        height: 50%;
+    }
+
+}
+
